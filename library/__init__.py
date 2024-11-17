@@ -1,6 +1,6 @@
 from flask import Flask, request, Blueprint
 from .book.controller import books
-from .extension import db
+from .extension import db,ma 
 from .models import *
 
 def create_app(config_file= "config.py"):
